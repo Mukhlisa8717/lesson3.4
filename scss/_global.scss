@@ -1,0 +1,30 @@
+$primaty1: #CDA274;
+$primaty2: #292F36;
+$primaty3: #F4F0EC;
+$primaty4: #4D5053;
+$primaty5: #F6F6F6;;
+$jost: 'Jost', sans-serif;
+$dmdisplay: 'DM Serif Display', serif;
+@mixin h2{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif; 
+    font-size: 40px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
